@@ -86,7 +86,7 @@ projeto/
 │
 ├── server.js (opcional caso tenha banco de dados)
 │
-├── token.json
+├── token.json (Precisa ser criado para uso)
 └── README.md
 ```
 
