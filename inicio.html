@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+</head>
+<body>
+    <div class="login-container">
+
+        <div class="login-card">
+
+            <div class="logo">
+                <div class="logo-icon">S</div>
+            </div>
+
+            <h1>Bem-vindo</h1>
+            <p class="subtitle">Entre na sua conta para continuar</p>
+
+            <form>
+
+                <div class="input-group">
+                    <label for="email">E-mail</label>
+                    <input
+                        type="email"
+                        id="email"
+                        placeholder="Digite seu e-mail"
+                        required
+                    >
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Senha</label>
+
+                    <div class="password-box">
+                        <input
+                            type="password"
+                            id="password"
+                            placeholder="Digite sua senha"
+                            required
+                        >
+
+                        <button type="button" class="show-password">
+                            👁
+                        </button>
+                    </div>
+                </div>
+
+                <div class="login-options">
+                    <label class="remember">
+                        <input type="checkbox">
+                        <span>Lembrar de mim</span>
+                    </label>
+
+                    <a href="#">Esqueci minha senha</a>
+                </div>
+
+                <button type="submit" class="login-button">
+                    Entrar
+                </button>
+
+            </form>
+
+            <div class="divider">
+                <span>ou</span>
+            </div>
+
+            <div id="g_id_onload"
+            data-client_id="539602712604-i0eaqqjj3fbpfn7i8imk2u47j1od8d2r.apps.googleusercontent.com"
+            data-callback="handleCredentialResponse">
+            </div>
+
+            <div class="g_id_signin"
+                data-type="standard">
+            </div>
+
+            <p class="register">
+                Ainda não possui uma conta?
+                <a href="cadastro.html">Criar conta</a>
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="java.js"></script>
+
+</body>
+</html>
