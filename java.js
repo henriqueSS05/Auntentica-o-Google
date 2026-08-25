@@ -12,7 +12,7 @@ function handleCredentialResponse(response) {
     .then(res => res.json())
     .then(data => {
         console.log(data);
-        window.location.href = "/inicio.html";
+        window.location.href = "/index.html";
     });
 
 }
